@@ -7,7 +7,7 @@
 }
 body {
   margin: 0 auto;
-  /* max-width: 1200px; */
+  /* max-width: 1440px; */
 }
 
 
@@ -17,6 +17,9 @@ h1 {
 }
 h2 {
   font-size: 55px;
+}
+h3 {
+  font-size: 40px;
 }
 header {
   background-color: antiquewhite;
@@ -52,16 +55,17 @@ nav {
 /* Banner */
 .banner {
   text-align: center;
-  /* width: 100vw; */
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .banner > div {
   width: 50%;
   margin: 30px auto;
 }
-.banner p {
+.section-description {
   margin: 30px auto;
 }
-.banner button {
+.orange-button {
   padding: 9px 18px;
   background-color: orange;
   color: white;
@@ -72,7 +76,39 @@ nav {
 }
 .banner img {
   width: 98%;
+  padding-bottom: 30px;
 }
+
+
+/* Team Section */
+.team {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px auto;
+}
+.team div {
+  width: 40%;
+}
+.team-1span {
+  font-weight: 100;
+  color: rgb(141, 141, 141);
+}
+.team-2span {
+  color: orange;
+}
+.img-collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 75px 50px;
+}
+.img-collage img {
+  width: 100%;
+  text-align: center;
+}
+
 
 
 
@@ -83,5 +119,14 @@ nav {
   }
   .navmenu {
     display: block;
+  }
+  .team {
+    flex-direction: column-reverse;
+  }
+  .team div {
+    width: 95%;
+  }
+  .team-text {
+    text-align: center;
   }
 }
