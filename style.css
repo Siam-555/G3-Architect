@@ -7,11 +7,23 @@
 }
 body {
   margin: 0 auto;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
+
+
+/* Headings */
 h1 {
   font-size: 40px;
 }
+h2 {
+  font-size: 55px;
+}
+header {
+  background-color: antiquewhite;
+}
+
+
+/* Navbar */
 nav {
   padding: 20px;
   display: flex;
@@ -26,4 +38,50 @@ nav {
   padding: 0 18px;
   text-decoration: none;
   font-size: 20px;
+}
+.navmenu {
+  display: none;
+}
+.navmenu img {
+  display: flex;
+  align-items: center;
+  width: 40px;
+}
+
+
+/* Banner */
+.banner {
+  text-align: center;
+  /* width: 100vw; */
+}
+.banner > div {
+  width: 50%;
+  margin: 30px auto;
+}
+.banner p {
+  margin: 30px auto;
+}
+.banner button {
+  padding: 9px 18px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner img {
+  width: 98%;
+}
+
+
+
+
+@media  screen and (max-width:572px) {
+  .navlink {
+    display: none;
+  }
+  .navmenu {
+    display: block;
+  }
 }
