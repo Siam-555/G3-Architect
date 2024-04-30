@@ -66,12 +66,13 @@ nav {
   margin: 30px auto;
 }
 .orange-button {
-  padding: 9px 18px;
+  padding: 10px 18px;
   background-color: orange;
   color: white;
   border: none;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .banner img {
@@ -102,12 +103,61 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  margin: 75px 50px;
+  margin: 70px 50px;
 }
 .img-collage img {
   width: 100%;
   text-align: center;
 }
+.team-text h3 {
+  margin-top: 40px;
+}
+
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.features-content {
+  width: 40%;
+}
+.features-image {
+  width: 45%;
+}
+.features-content > h3 {
+  padding-left: 30px;
+  border-left: 5px solid orange;
+}
+.features-card {
+  margin: 35px 20px;
+  padding: 22px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px #f1f1f1;
+}
+.features-card-h {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.features-card-p {
+  color: #919090;
+}
+.features-image img {
+  width: 95%;
+}
+.features-image p {
+  background-color: orange;
+  color: white;
+  padding: 30px 20p;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 34px;
+  position: absolute;
+  bottom: -20px;
+}
+/* .experienced-text {
+  position: absolute;
+} */
 
 
 
@@ -128,5 +178,18 @@ nav {
   }
   .team-text {
     text-align: center;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .features-content {
+    width: 95%;
+  }
+  .features-image {
+    width: 94%;
+    margin: 0 auto;
+  }
+  .features-image img {
+    width: 100%;
   }
 }
