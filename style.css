@@ -210,6 +210,13 @@ nav {
   padding: 30px;
   width: 14%;
 }
+footer p {
+  background-color: #919090;
+  color: rgb(255, 232, 132);
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+}
 
 
 
