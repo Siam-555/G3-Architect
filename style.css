@@ -174,7 +174,6 @@ nav {
 .achievement {
   margin: 0 auto;
   padding: 40px 0;
-  /* height: 190px; */
   width: 190px;
   border: 1px solid orange;
   border-radius: 10px;
@@ -191,6 +190,26 @@ nav {
   color: #747474;
 }
 
+
+/* Sponsors Section */
+.sponsors {
+  margin: 0 30px;
+  text-align: center;
+}
+.sponsor-details {
+  margin: 0 auto;
+  width: 40%;
+}
+.sponsor {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sponsor img {
+  padding: 30px;
+  width: 14%;
+}
 
 
 
@@ -234,7 +253,17 @@ nav {
     margin: 0;
     gap: 20px;
   }
+  .achievement {
+    padding: 20px 0;
+    width: 165px;
+  }
   .facts {
     width: 80%;
+  }
+  .sponsor-details {
+    width: 95%;
+  }
+  .sponsor img {
+    width: 24%;
   }
 }
